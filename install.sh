@@ -8,7 +8,7 @@ if [[ -d $DOTFILES ]]; then
     print 'Checking dotfiles directory'
 else
     print 'Cloning dotfiles'
-    git clone https://github.com/willianjusten/dotfiles.git $DOTFILES
+    git clone https://github.com/mathfeola/dotfiles.git $DOTFILES
 fi
 
 cd $DOTFILES

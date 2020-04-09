@@ -5,5 +5,5 @@
 ### Installation
 
 ```bash
-curl -L https://raw.github.com/willianjusten/dotfiles/master/install.sh | bash
+curl -L https://raw.github.com/mathfeola/dotfiles/master/install.sh | bash
 ```

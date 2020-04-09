@@ -19,5 +19,8 @@ msg_install "Installing apps with brew"
 brew=(
   "zsh"
   "rbenv"
+  "ruby-build"
+  "chisel"
+  "mas"
 )
 

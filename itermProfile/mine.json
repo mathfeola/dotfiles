@@ -95,7 +95,7 @@
   "Title Components" : 6,
   "Custom Command" : "No",
   "ASCII Anti Aliased" : true,
-  "Non Ascii Font" : "SourceCodeProForPowerline-Regular 23",
+  "Non Ascii Font" : "SourceCodeProForPowerline-Regular 25",
   "Vertical Spacing" : 1,
   "Use Bold Font" : true,
   "Option Key Sends" : 0,
@@ -339,7 +339,7 @@
   },
   "Use Non-ASCII Font" : true,
   "Transparency" : 0,
-  "Normal Font" : "SourceCodeProForPowerline-Regular 23",
+  "Normal Font" : "SourceCodeProForPowerline-Regular 25",
   "Ansi 1 Color" : {
     "Green Component" : 0.22098405659198761,
     "Red Component" : 0.9871404767036438,

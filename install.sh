@@ -13,7 +13,43 @@ fi
 
 cd $DOTFILES
 
-source install/environment.sh
+# Brew ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+msg_install "Setting up Homebrew"
+if test ! $(which brew); then
+  msg_install "Installing homebrew"
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  msg_ok 'Homebrew'
+else
+  msg_alert "Homebrew already instaled"
+  msg_update "Updating Homebrew"
+  brew update
+fi
+
+# Brew apps :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+msg_install "Installing apps with brew"
+brew install zsh
+brew install vim
+brew install mas
+brew install rbenv
+brew install ruby-build
+brew install chisel
+
+# Config ZSH:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+mkdir ~/dev
+mkdir ~/dev/zsh
+git clone git@github.com:agnoster/agnoster-zsh-theme.git ~/dev/zsh/agnoster-zsh-theme
+git clone https://github.com/powerline/fonts.git ~/dev/zsh/fonts
+sh ~/dev/zsh/fonts/install.sh
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+
+# Install ruby version:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+rbenv install 2.6.5
 
 source install/softwares.sh
 

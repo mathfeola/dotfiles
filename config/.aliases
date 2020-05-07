@@ -12,6 +12,8 @@ alias .....="cd ../../../.."
 # General aliases
 alias update="gfa ; ggpull"
 
+
 # iOS related
 alias repoup="bundle exec repo update"
-
+alias installup="bundle exec pod install --repo-update"
+alias rmderived="rm -rf ~/Library/Developer/Xcode/DerivedData"

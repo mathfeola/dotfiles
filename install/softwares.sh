@@ -12,6 +12,7 @@ cask=(
   "transmission"
   "spotify"
   "coconutbattery"
+  "tor-browser"
 )
 
 for app in "${cask[@]}"; do

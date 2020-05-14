@@ -7,13 +7,14 @@ alias .....="cd ../../../.."
 
 # Shortcuts
 # alias dl="cd ~/Downloads"
-# alias blog="cd ~/Development/willianjusten.com.br && code ."
+# alias blog="cd ~/Development/willianjusten.com.b  qr && code ."
 
 # General aliases
 alias update="gfa ; ggpull"
 
-
 # iOS related
-alias repoup="bundle exec repo update"
-alias installup="bundle exec pod install --repo-update"
-alias rmderived="rm -rf ~/Library/Developer/Xcode/DerivedData"
+alias repoup="bundle exec pod repo update"
+alias podi="bundle exec pod install"
+alias bi="bundle install"
+alias podiup="bundle exec pod install --repo-update"
+alias rmderived="rm -rf ~/Library/Developer/Xcode/DerivedData

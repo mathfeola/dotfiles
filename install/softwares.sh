@@ -13,6 +13,9 @@ cask=(
   "spotify"
   "coconutbattery"
   "tor-browser"
+  "slack"
+  "vlc"
+  "discord"
 )
 
 for app in "${cask[@]}"; do
@@ -20,3 +23,21 @@ for app in "${cask[@]}"; do
   brew cask install $app
   msg_ok "$app"
 done
+
+# List outside installed apps
+
+# GlobalProtect
+# Disk Cleaner
+# Xcode
+# Yellow Duck
+# OBS
+# Postman
+# Veracrypt
+
+
+## Music:
+# MainStage 3
+# GarageBand
+# Rekordbox
+
+

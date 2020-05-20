@@ -30,9 +30,6 @@ msg_install "Installing apps with brew"
 brew install zsh
 brew install vim
 brew install mas
-brew install ruby-build
-brew install rbenv
-brew install chisel
 brew install unrar
 
 # Config ZSH:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -48,12 +45,7 @@ sh ~/dev/zsh/fonts/install.sh
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
-# Configure ruby version:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-echo '# rbenv init config' >> ~/.zshrc
-echo 'eval "$(rbenv init -)"' >> ~/.zshrc
-
-rbenv install 2.6.5
-rbenv global 2.6.5
 source install/softwares.sh
 source config/global.sh
+source config/ruby-configuration.sh
+source config/ios-configuration.sh

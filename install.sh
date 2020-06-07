@@ -31,6 +31,10 @@ brew install zsh
 brew install vim
 brew install mas
 brew install unrar
+brew install htop
+brew install youtube-dl
+brew install youtube-dl ffmpeg
+# youtube-dl -f bestvideo+bestaudio ‘link’
 
 # Config ZSH:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

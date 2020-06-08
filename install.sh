@@ -40,9 +40,9 @@ brew install youtube-dl ffmpeg
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-bash install/softwares.sh
-bash config/ruby-configuration.sh
-bash config/ios-configuration.sh
+bash ./install/softwares.sh
+bash ./config/ruby-configuration.sh
+bash ./config/ios-configuration.sh
 
 echo "\n# General aliases" >> ~/.zshrc
 echo 'alias dl="cd ~/Downloads"' >> ~/.zshrc

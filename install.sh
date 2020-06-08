@@ -2,7 +2,7 @@
 
 source colors.sh
 
-DOTFILES="$HOME/Development/dotfiles"
+DOTFILES="$HOME/dev"
 
 if [[ -d $DOTFILES ]]; then
     print 'Checking dotfiles directory'
@@ -36,20 +36,23 @@ brew install youtube-dl
 brew install youtube-dl ffmpeg
 # youtube-dl -f bestvideo+bestaudio ‘link’
 
-# Config ZSH:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+# ZSH:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-mkdir ~/dev
-mkdir ~/dev/zsh
-git clone git@github.com:agnoster/agnoster-zsh-theme.git ~/dev/zsh/agnoster-zsh-theme
-git clone https://github.com/powerline/fonts.git ~/dev/zsh/fonts
-sh ~/dev/zsh/fonts/install.sh
+bash install/softwares.sh
+bash config/ruby-configuration.sh
+bash config/ios-configuration.sh
 
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+echo "\n# General aliases" >> ~/.zshrc
+echo 'alias dl="cd ~/Downloads"' >> ~/.zshrc
+echo 'alias code-dotfiles="cd ~/dev/dotfiles && code ."' >> ~/.zshrc
+echo 'alias update="gfa ; ggpull"' >> ~/.zshrc
+echo 'alias push="gpsup"' >> ~/.zshrc
 
-source install/softwares.sh
-source config/global.sh
-source config/ruby-configuration.sh
-source config/ios-configuration.sh
+echo '# iOS related aliases' >> ~/.zshrc
+echo 'alias repoup="bundle exec pod repo update"' >> ~/.zshrc
+echo 'alias podi="bundle exec pod install"' >> ~/.zshrc
+echo 'alias bi="bundle install"' >> ~/.zshrc
+echo 'alias podiup="bundle exec pod install --repo-update"' >> ~/.zshrc
+echo 'alias rmderived="rm -rf ~/Library/Developer/Xcode/DerivedData"' >> ~/.zshrc

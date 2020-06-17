@@ -42,6 +42,7 @@ cask=(
   "discord"
   "postman"
   "docker"
+  "balenaetcher"
 )
 
 for app in "${cask[@]}"; do

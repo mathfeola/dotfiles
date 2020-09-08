@@ -8,10 +8,10 @@ brew install zsh
 brew install vim
 brew install mas
 brew install unrar
-brew install htop
-brew install youtube-dl
-brew install ffmpeg
-brew install github/gh/gh
+# brew install htop
+# brew install youtube-dl
+# brew install ffmpeg
+# brew install github/gh/gh
 # youtube-dl -f bestvideo+bestaudio ‘link’
 
 echo "# General aliases" >> ~/.zshrc
@@ -63,6 +63,7 @@ done
 
 
 ## Music ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+# Logic Pro x
 # MainStage 3
 # GarageBand
 # Rekordbox

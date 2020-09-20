@@ -1,11 +1,13 @@
 # My dotfiles
 
-> These are my dotfiles, inspired by [Mathias dotfiles](https://github.com/mathiasbynens/dotfiles).
+Just a few shell scripts to configure my personal mac. It installs apps from cask, Mac app store, configure aliases, the menu bar, etc. 
 
-### Installation
+## Installation:
 
-```bash
-curl -L https://raw.github.com/mathfeola/dotfiles/master/install.sh | bash
+### First install **homebrew** 🍺
 
-bash softwares.sh
-```
+> ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
+
+### Then just run
+
+> ```bash installSoftwares.sh```

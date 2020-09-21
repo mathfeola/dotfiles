@@ -1,6 +1,6 @@
 # My dotfiles
 
-Just a few shell scripts to configure my personal mac. It downloads apps from App store, configure aliases, menu bar, install developer tools, etc. 
+Just a few shell scripts to configure my personal mac. They can download apps from App store, configure aliases, dock bar, install developer tools, etc. 
 
 ## Installation:
 
@@ -10,7 +10,7 @@ Just a few shell scripts to configure my personal mac. It downloads apps from Ap
 
 ### Then just run the install scripts:
 
-> ```$ bash brewApps.sh ; bash caskApps.sh ; bash masApps.sh ```
+> ```$ bash brewApps.sh ; bash caskApps.sh ; bash masApps.sh ; bash config/macOSGeneralConfig.sh```
 
 ### To configure the **terminal** ＄:
 
@@ -20,5 +20,5 @@ Just a few shell scripts to configure my personal mac. It downloads apps from Ap
 4. Run the following command to install `oh My Zsh`
 > ```$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ```
 5. And last run the configuration files:
-> ```$ bash config/configZSH ; bash macOSGeneralConfig.sh ; bash generalAliases.sh  ```
+> ```$ bash config/configZSH ; bash generalAliases.sh```
 

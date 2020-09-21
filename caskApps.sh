@@ -3,7 +3,6 @@
 source config/colors.sh
 
 msg_install "Installing apps with brew cask"
-brew cask
 cask=(
   "iterm2"
   "visual-studio-code"

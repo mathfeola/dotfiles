@@ -19,3 +19,5 @@ defaults write com.apple.dock autohide-delay -float 0; killall Dock
 defaults write com.apple.finder QuitMenuItem -bool true; killall Finder
 # Stop Photos from opening automatically on your Mac
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+
+killall SystemUIServer

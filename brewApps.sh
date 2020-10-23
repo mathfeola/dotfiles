@@ -8,3 +8,4 @@ brew install vim
 brew install mas
 brew install unrar
 brew install gh
+brew install youtube-dl

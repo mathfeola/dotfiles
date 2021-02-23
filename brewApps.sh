@@ -7,5 +7,6 @@ brew install zsh
 brew install vim
 brew install mas
 brew install unrar
+brew install cmatrix
 brew install gh
 brew install youtube-dl

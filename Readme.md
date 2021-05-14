@@ -4,9 +4,9 @@ Just a few shell scripts to configure my personal mac. They can download apps fr
 
 ## Installation:
 
-### First install **homebrew** 🍺
+### First install **[homebrew](https://brew.sh)** 🍺
 
-> ```$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
+> ```$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 
 ### Then just run the install scripts:
 

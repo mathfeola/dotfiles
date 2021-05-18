@@ -14,6 +14,7 @@ cask=(
   "vlc"
   "discord"
   "postman"
+  "github"
 )
 
 for app in "${cask[@]}"; do

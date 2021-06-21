@@ -10,3 +10,4 @@ brew install unar
 brew install cmatrix
 brew install gh
 brew install youtube-dl
+brew install python

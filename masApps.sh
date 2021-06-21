@@ -8,6 +8,9 @@ mas install 970246631
 # Kindle
 mas install 405399194
 
+#  Xcode
+mas install 497799835
+
 ## outside installed apps ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # Rekordbox
@@ -26,4 +29,6 @@ mas install 634148309
 
 # Keynote
 mas install 409183694
+
+
 

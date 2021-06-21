@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# instal Xcode
-mas install 497799835
 brew install chisel
 # TODO: alias to automatically create .lldbinit
 

@@ -10,7 +10,7 @@ Just a few shell scripts to configure my personal mac. They can download apps fr
 
 ### Then just run the install scripts:
 
-> ```$ bash brewApps.sh ; bash caskApps.sh ; bash masApps.sh ; bash config/macOSGeneralConfig.sh```
+> ```$ bash brewApps.sh ; bash masApps.sh ; bash caskApps.sh ; bash config/macOSGeneralConfig.sh```
 
 ### To configure the **terminal** ＄:
 

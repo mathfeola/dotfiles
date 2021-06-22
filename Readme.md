@@ -14,7 +14,7 @@ Just a few shell scripts to configure my personal mac. They can download apps fr
 
 ### clone the dotfiles project:
 
-> ```$ git clone git@github.com:mathfeola/dotfiles.git ~/dev/dotfiles```
+> ```$ git clone git@github.com:mathfeola/dotfiles.git ~/dev/dotfiles ; cd dotfiles```
 
 ### Then just run the install scripts:
 

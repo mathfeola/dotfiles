@@ -16,6 +16,9 @@ mas install 497799835
 # Rekordbox
 # https://rekordbox.com/en/download/
 
+# Serato
+# https://serato.com
+
 # VeraCrypt
 https://github.com/veracrypt/VeraCrypt
 

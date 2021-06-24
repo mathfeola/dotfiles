@@ -7,4 +7,5 @@ brew install vim
 brew install mas
 brew install unar
 brew install cmatrix
-brew install python
+# brew install python
+brew install pyenv 

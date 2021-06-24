@@ -8,6 +8,14 @@ Just a few shell scripts to configure my personal mac. They can download apps fr
 
 > ```$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 
+### make a dev directory to clone dotfiles:
+
+> ```$ mkdir ~/dev ; cd ~/dev```
+
+### clone the dotfiles project:
+
+> ```$ git clone git@github.com:mathfeola/dotfiles.git ~/dev/dotfiles ; cd dotfiles```
+
 ### Then just run the install scripts:
 
 > ```$ bash brewApps.sh ; bash masApps.sh ; bash caskApps.sh ; bash config/macOSGeneralConfig.sh```

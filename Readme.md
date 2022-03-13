@@ -8,6 +8,9 @@ Just a few shell scripts to configure my personal mac. They can download apps fr
 
 > ```$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 
+```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 ### make a dev directory to clone dotfiles:
 
 > ```$ mkdir ~/dev ; cd ~/dev```

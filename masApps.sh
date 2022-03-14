@@ -8,10 +8,10 @@ mas install 970246631
 # Kindle
 mas install 405399194
 
-#  Xcode
-mas install 497799835
+# Keynote
+mas install 409183694
 
-## outside installed apps ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+## Outside installed apps ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # Rekordbox
 # https://rekordbox.com/en/download/
@@ -20,18 +20,18 @@ mas install 497799835
 # https://serato.com
 
 # VeraCrypt
-https://github.com/veracrypt/VeraCrypt
+# https://github.com/veracrypt/VeraCrypt
 
 ## Music ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+# MainStage 3
+mas install 634159523
+
+# GarageBand
+mas install 682658836
+
+#  Xcode
+mas install 497799835
+
 # Logic Pro x
 mas install 634148309
-
-# MainStage 3
-# mas install 634159523
-
-# Keynote
-mas install 409183694
-
-
-

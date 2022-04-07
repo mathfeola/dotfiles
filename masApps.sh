@@ -11,18 +11,24 @@ mas install 405399194
 # Keynote
 mas install 409183694
 
-## Outside installed apps ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+## Outside installed apps ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+# VeraCrypt
+# https://github.com/veracrypt/VeraCrypt
+
+# Steam
+# https://store.steampowered.com/about/
+
+# OBS
+# https://obsproject.com/welcome
+
+## Music ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # Rekordbox
 # https://rekordbox.com/en/download/
 
 # Serato
 # https://serato.com
-
-# VeraCrypt
-# https://github.com/veracrypt/VeraCrypt
-
-## Music ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # MainStage 3
 mas install 634159523

@@ -7,16 +7,11 @@ cask=(
   "iterm2"
   "visual-studio-code"
   "transmission"
-  "spotify"
   "coconutbattery"
   "tor-browser"
   "slack"
   "vlc"
-  "discord"
-  "postman"
-  "github"
-  "twitch"
-  "firefox"
+  "charles"
 )
 
 for app in "${cask[@]}"; do
